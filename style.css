@@ -1,0 +1,493 @@
+/*logo ecriture*/
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400&family=Island+Moments&family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.separator-white hr{
+    width: 350px;
+    margin: auto;
+    height: 5px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.separator-small_white hr{
+    width: 150px;
+    margin: auto;
+    height: 5px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.separator-yellow hr{
+    width: 150px;
+    margin: auto;
+    height: 5px;
+    border: 2px solid #c7ac3d;
+    background-color: #c7ac3d;
+    border-radius: 10px;
+}
+.separator-small_yellow hr{
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    border: 1px dashed rgba(199, 172, 61, 0.5);
+}
+/*decoration pour le logo*/
+.logo{
+    font-family: 'Island Moments', cursive;
+    width: 145px;
+    height: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 40px;
+    padding: 15px 5px;
+    cursor: pointer;
+    color: #f3fcec;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+ul{
+    padding-top: 25px;
+}
+li{
+    display: inline-block;
+}
+#navl_link li a{
+    text-decoration: none;
+    color: #f3fcec;
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease 0s;
+}
+#navl_link li a:hover{
+    color: #c7ac3d;
+}
+#social li a{
+    font-size: 18px;
+    padding: 5px;
+    color: #c7ac3d;
+    transition: all 0.3s ease 0s;
+}
+#social li a:hover{
+    color: #f3fcec;
+}
+header{
+    background-image: linear-gradient(rgba(19, 18, 18, 0.55),rgba(19, 18, 18, 0.55)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    
+}
+header h1{
+    color: #e8eced;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 45px;
+}
+header .btn{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+header .btn a{
+    text-decoration: none;
+    text-align: center;
+    color: #e8eced;
+    margin-right: 10px;
+}
+header .btn_noir{
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px ;
+    transition: all 0.3s ease 0s;
+}
+header .btn_noir:hover{
+    background-color: #000;
+}
+header .btn_white{
+    border: 1px solid #fff;
+    background-color: rgba(247, 237, 234, 0.32);
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+}
+header .btn_white:hover{
+    background-color: rgba(207, 207, 207, 1);
+    color: #000;
+}
+
+/****
+About
+****/
+#about{
+    background-image: url(images/moquette.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 35px;
+}
+.widthAbout{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+.widthAbout article{
+    width: 50%;
+    margin-right: 3%;
+}
+.widthAbout article h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.widthAbout article p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.widthAbout article .chef{
+    font-family: 'Island Moments', cursive;
+    font-size: 40px;
+}
+.widthAbout article img{
+    width: 130px;
+    height: 180px;
+    object-fit: cover;
+    margin-left: 37%;
+    border-radius: 50%;
+}
+.widthAbout img{
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/***
+ingredient
+***/
+#ingredient{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding:50px;
+}
+#ingredient article{
+    width: 30%;
+    height: 300px;
+    background-color: rgba(70, 69, 70, 0.8);
+}
+#ingredient article h3{
+    color: #f3fcec;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 0;
+
+}
+#ingredient article p{
+    color: #f3fcec;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1px;
+    padding: 5px;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+#ingredient article ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10%;
+}
+#ingredient article ul img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+/***
+Menu
+***/
+
+#menu{
+    background-image: url(images/moquette.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: 10px;
+}
+.widthMenu{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.widthMenu article{
+    width: 40%;
+    margin: 20px;
+}
+.widthMenu article h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.widthMenu article .nomPlat{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #c7ac3d;
+    font-size: 16px;
+}
+.widthMenu article .prix{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #c7ac3d;
+    font-size: 16px;
+    float: right;
+    clear: both;
+}
+.widthMenu article p{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+}
+
+/***
+Reviews
+***/
+#review{
+    background-image: url(images/barbecue.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 50px;
+}
+#review article{
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    background-color: rgba(19, 18, 18, 0.55);
+    padding: 20px;
+    text-align: center;
+}
+#review article h3{
+    color: #f3fcec;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#review article blockquote{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f3fcec;
+    padding-top: 15px;
+    line-height: 25px;
+}
+#review article .guillemet{
+    font-size: 25px;
+    font-weight: bold;
+    color: #e8eced;
+}
+#review article p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f3fcec;
+    padding-top: 25px;
+}
+
+/*****
+****
+reservation
+***
+******/
+
+#reservation{
+    background-image: url(images/moquette.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding: 10px;
+}
+#reservation .withReservation{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+.withReservation .image{
+    display: flex;
+    width: 48%;
+}
+.withReservation .image img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    padding-left: 4px;
+    padding-top: 30px;
+}
+.withReservation .introreservation{
+    width: 48%;
+    margin-left: auto;
+    padding-top: 30px;
+}
+.withReservation .introreservation h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
+}
+.withReservation .introreservation p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+}
+.withReservation .introreservation form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.withReservation .introreservation .form{
+    padding: 10px ;
+}
+.withReservation .introreservation .form label{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 0;
+}
+.withReservation .introreservation .form input[type=text], input[type=email],input[type=date],input[type=number]{
+    border: 1px solid #c7ac3d; 
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+}
+.withReservation .introreservation .form input[type=submit]{
+    border: none;
+    background-color: #c7ac3d;
+    color: #f3fcec;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.withReservation .introreservation .form input[type=submit]:hover{
+    background-color: rgba(199, 172, 61, 0.8);
+    border: 1px solid #c7ac3d;
+}
+
+/***
+footer
+**/
+footer{
+    background-color: #191919;
+    height: 200px;
+}
+.footer{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer h3{
+    color: #f3fcec;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+.footer p{
+    color: #f3fcec;
+    padding-top: 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.footer .aboutf{
+    width: 45%;
+    margin: auto;
+}
+.footer .aboutf p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.footer .hour{
+    width: 25%;
+    margin: auto;
+}
+.footer .hour p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.footer .hour ul{
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.footer .hour li{
+    font-size: 30px;
+    padding: 1px;
+}
+.footer .location{
+    width: 25%;
+    margin: auto;
+}
+.footer .location p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.footer .location ul{
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer .location li{
+    font-size: 30px;
+    padding: 1px;
+}
